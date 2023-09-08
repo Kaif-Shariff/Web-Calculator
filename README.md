@@ -2,7 +2,8 @@
 Welcome to my interactive calculator webpage project! 🖥️
 
 ## Calculator Demo
-![Calculator Demo](https://github.com/Kaif-Shariff/CODINGSAMURAI/blob/main/Calc%20gif.mp4)
+https://github.com/Kaif-Shariff/CODINGSAMURAI/assets/93507427/c9ca652a-3252-4b40-b846-c0c655303b0a
+
 
 ## Project Overview
 **This project was created as part of my internship with Coding Samurai. It's a dynamic calculator webpage built using HTML, Tailwind CSS, JavaScript, and Particle.js. The goal was to create an engaging and user-friendly calculator with a modern touch.**
