@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="output.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <script defer src="logic.js"></script>
+</head>
+
+<body class="bg-myblack overflow-hidden font-[poppins]">
+  <!-- background with bubble using particle.js  -->
+  <div id="particles-js" class="w-screen h-screen z-0 flex justify-center items-center">
+    <!-- calculator -->
+    <div class="w-[310px] h-[558px] absolute z-10 rounded-3xl custom-gradient" id="calc">
+      <!-- Numbers and Input boxes on the calculator -->
+      <div class="flex flex-col m-6 mt-16">
+        <!-- input boxes for numbers -->
+        <input class="mt-2 ring-0 outline-none text-[20px] text-right" type="text" id="prev"
+          style="background-color: transparent; color: #fff" readonly />
+        <input class="mt-2 ring-0 outline-none text-[55px] text-right" type="text" id="now" placeholder="00"
+          style="background-color: transparent; color: #fff" />
+      </div>
+
+      <!-- buttons -->
+      <div class="w-[264px] h-[350px] mx-auto -my-8 flex flex-row justify-center">
+        <div class="mb-4">
+          <!-- row 1 -->
+          <div class="w-[264px] h-[50px] flex justify-between items-center mt-[20px]">
+            <input class="w-[54px] h-[54px] rounded-full bg-myoffwhite2 text-mypink font-semibold text-[25px]"
+              type="button" value="C" />
+            <input class="w-[54px] h-[54px] rounded-full bg-myorange text-myoffwhite2 font-semibold text-[25px]"
+              type="button" value=" % " />
+            <input class="w-[54px] h-[54px] rounded-full bg-myorange text-myoffwhite2 font-semibold text-[25px]"
+              type="button" value=" / " data-operator />
+            <input class="w-[54px] h-[54px] rounded-full bg-myorange text-myoffwhite2 font-semibold text-[25px]"
+              type="button" value=" x " data-operator />
+          </div>
+
+          <!-- row 2 -->
+          <div class="w-[264px] h-[50px] mt-[20px] flex justify-between items-center">
+            <input class="w-[54px] h-[54px] rounded-full custom-btn-clr text-myoffwhite2 font-semibold text-[25px]"
+              type="button" value="1" />
+            <input class="w-[54px] h-[54px] rounded-full custom-btn-clr text-myoffwhite2 font-semibold text-[25px]"
+              type="button" value="2" />
+            <input class="w-[54px] h-[54px] rounded-full custom-btn-clr text-myoffwhite2 font-semibold text-[25px]"
+              type="button" value="3" />
+            <input class="w-[54px] h-[54px] rounded-full bg-myorange text-myoffwhite2 font-semibold text-[25px]"
+              type="button" value=" - " data-operator />
+          </div>
+          <!-- row 3 -->
+          <div class="w-[264px] h-[50px] mt-[20px] flex justify-between items-center">
+            <input class="w-[54px] h-[54px] rounded-full custom-btn-clr text-myoffwhite2 font-semibold text-[25px]"
+              type="button" value="4" />
+            <input class="w-[54px] h-[54px] rounded-full custom-btn-clr text-myoffwhite2 font-semibold text-[25px]"
+              type="button" value="5" />
+            <input class="w-[54px] h-[54px] rounded-full custom-btn-clr text-myoffwhite2 font-semibold text-[25px]"
+              type="button" value="6" />
+            <input class="w-[54px] h-[54px] rounded-full bg-myorange text-myoffwhite2 font-semibold text-[25px]"
+              type="button" value=" + " data-operator />
+          </div>
+
+          <!-- row 4 -->
+          <div class="w-[264px] h-[50px] mt-[20px] flex justify-between items-center">
+            <input class="w-[54px] h-[54px] rounded-full custom-btn-clr text-myoffwhite2 font-semibold text-[25px]"
+              type="button" value="7" />
+            <input class="w-[54px] h-[54px] rounded-full custom-btn-clr text-myoffwhite2 font-semibold text-[25px]"
+              type="button" value="8" />
+            <input class="w-[54px] h-[54px] rounded-full custom-btn-clr text-myoffwhite2 font-semibold text-[25px]"
+              type="button" value="9" />
+            <input
+              class="w-[54px] h-[128px] mt-[75px] rounded-full bg-mypink text-myoffwhite2 font-semibold text-[25px]"
+              type="button" value="=" id="submit" />
+          </div>
+
+          <!-- row 5 -->
+          <div class="w-[264px] h-[50px] mt-[20px] flex items-center">
+            <input class="w-[54px] h-[54px] rounded-full custom-btn-clr text-myoffwhite2 font-semibold text-[25px]"
+              type="button" value="00" />
+            <input
+              class="w-[54px] h-[54px] mx-[18px] rounded-full custom-btn-clr text-myoffwhite2 font-semibold text-[25px]"
+              type="button" value="0" />
+            <input class="w-[54px] h-[54px] rounded-full custom-btn-clr text-myoffwhite2 font-semibold text-[25px]"
+              type="button" value="." data-operator />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="particles.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
