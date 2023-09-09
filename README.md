@@ -6,7 +6,8 @@ Welcome to my interactive calculator webpage project! 🖥️
 ![Calculator](https://github.com/Kaif-Shariff/CODINGSAMURAI/assets/93507427/8eaafb7f-cecb-451e-bc71-bc3f3650125f)
 
 ## Project Overview
-**This project was created as part of my internship with Coding Samurai. It's a dynamic calculator webpage built using HTML, Tailwind CSS, JavaScript, and Particle.js. The goal was to create an engaging and user-friendly calculator with a modern touch.**
+- **This project was created as part of my internship with Coding Samurai. It's a dynamic calculator webpage built using HTML, Tailwind CSS, JavaScript, and Particle.js. The goal was to create an engaging and user-friendly calculator with a modern touch.**
+- **My intention for this approach is to demonstrate my skills as a Frontend developer who can utilize JavaScript to create an engaging webpage**
 
 ## Getting Started
 
@@ -16,11 +17,11 @@ Welcome to my interactive calculator webpage project! 🖥️
 - **That's it. If you have any suggestions or want to contact me this is my email [kaif.shariff1234@gmail.com]**
 
 ## Features
-**Interactive Bubble Background: The eye-catching bubble background is powered by Particle.js, adding a visually appealing element to the calculator.**
+- **Interactive Bubble Background: The eye-catching bubble background is powered by Particle.js, adding a visually appealing element to the calculator.**
 
-**Button Hover Effects: JavaScript is used to implement custom hover effects on the input buttons, enhancing the user experience.**
+- **Button Hover Effects: JavaScript is used to implement custom hover effects on the input buttons, enhancing the user experience.**
 
-**Sleek Styling: Tailwind CSS was used to style the calculator with a modern and transparent design, giving it a sophisticated look.**
+- **Sleek Styling: Tailwind CSS was used to style the calculator with a modern and transparent design, giving it a sophisticated look.**
 
 ## Acknowledgments
 - **I would like to express my gratitude to Coding Samurai for providing me with this internship opportunity, allowing me to grow my web development skills and create this project.**
