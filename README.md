@@ -5,6 +5,9 @@ Welcome to my interactive calculator webpage project! 🖥️
 
 ![Calculator](https://github.com/Kaif-Shariff/CODINGSAMURAI/assets/93507427/8eaafb7f-cecb-451e-bc71-bc3f3650125f)
 
+
+*If the media doesn't load, please wait a moment and try refreshing the page.*
+
 ## Project Overview
 - **This project was created as part of my internship with Coding Samurai. It's a dynamic calculator webpage built using HTML, Tailwind CSS, JavaScript, and Particle.js. The goal was to create an engaging and user-friendly calculator with a modern touch.**
 - **My intention for this approach is to demonstrate my skills as a Frontend developer who can utilize JavaScript to create an engaging webpage**
